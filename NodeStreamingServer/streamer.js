@@ -21,9 +21,9 @@ const config = {
 
 const nms = new NodeMediaServer(config);
 
-nms.run();
-console.log("Stream server has started!");
-console.log("Get acces using url:");
+console.log("Stream server is starting...");
 console.log("rtmp://localhost:" + port + "/live/stream");
+
+nms.run();
 
  
